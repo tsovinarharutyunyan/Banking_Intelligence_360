@@ -1,0 +1,11 @@
+data/
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+outputs/*.csv
+outputs/*.db
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
