@@ -34,6 +34,22 @@ These metrics were observed from a run of the 2023–2025 extract. The CFPB sour
 - **Emerging issue screening:** quarter-over-quarter changes in product–issue combinations with a minimum baseline of 100 complaints; descriptive, not predictive.
 - **Outputs:** nine aggregated CSV tables, four PNG figures, SQL script, SQLite database, and a generated executive summary.
 
+## Analysis visuals
+
+The figures below were generated from the 2023–2025 CFPB extract using the notebook.
+
+### Monthly complaint trend
+![Monthly published complaint trend](01_monthly_trend.png)
+
+### Product and issue concentration
+![Product and issue breakdown](02_product_issue_mix.png)
+
+### Company response categories
+![Recorded company response categories](03_response_categories.png)
+
+### Geographic distribution
+![Top states by published complaint count](04_states.png)
+
 ## Selected business insights
 
 - Complaint volumes are concentrated in a limited set of product categories, warranting closer issue-level monitoring.
@@ -41,7 +57,7 @@ These metrics were observed from a run of the 2023–2025 extract. The CFPB sour
 - Company-level complaint counts should not be interpreted as complaint rates without customer-base or market-share denominators.
 - High-growth product–issue combinations are screening signals to investigate, not evidence of causation or wrongdoing.
 
-For specific top categories and growth estimates, see the notebook-generated `outputs/EXECUTIVE_SUMMARY.md` (when included).
+For specific top categories and growth estimates, run the notebook to generate `outputs/EXECUTIVE_SUMMARY.md`.
 
 ## Repository contents
 
