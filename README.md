@@ -59,6 +59,19 @@ The notebook generates four PNG figures in the `outputs/` folder. The charts sho
 - `03_responses.png` — company response categories
 - `04_states.png` — states with the highest reported complaint counts
 
+
+### Monthly complaint trend
+![Monthly complaint trend](01_monthly_trend.svg)
+
+### Top products
+![Top products by complaint count](02_top_products.svg)
+
+### Company response categories
+![Company response categories](03_responses.svg)
+
+### Geographic distribution
+![Top reported states](04_states.svg)
+
 ## Repository contents
 
 ```text
